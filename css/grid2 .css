@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 250px 250px 250px;
+    gap: 5px;
+    justify-content: center;
+    
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7{
+    background-color: black;
+    border-radius: 5px;  
+}
+.box4{
+    grid-column: span 2;
+}
+.box7{
+    grid-column: span 2;
+}
+.text{
+    color: white;
+    font-size: 15px;
+    text-align:start ;
+    justify-content:end ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.word{
+    color: white;
+    font-size:12px ;
+}
+.box11,.box22,.box33,.box55,.box66{
+    background-color: rgb(78, 77, 70);
+    height: 130px;
+    width: 180px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top:10px ;
+}
+.box44,.box77{
+    background-color:rgb(78, 77, 70);
+    height:130px ;
+    width: 385px;
+    margin-left:10px ;
+    margin-top:10px ;
+    border-radius:10px ;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box6:hover,.box7:hover,.box5:hover{
+background-color: azure;
+}
+.box11:hover,.box22:hover,.box33:hover,.box44:hover,.box66:hover,.box55:hover,.box77:hover{
+    background-color:azure ;
+}

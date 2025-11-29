@@ -1,0 +1,92 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 250px 250px 250px;
+    gap: 5px;
+    justify-content: center;
+    
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7{
+    background-color: black;
+    border-radius: 5px;  
+}
+.box4{
+    grid-column: span 2;
+}
+.box7{
+    grid-column: span 2;
+}
+.text{
+    color: white;
+    font-size: 15px;
+    text-align:start ;
+    justify-content:end ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.word{
+    color: white;
+    font-size:12px ;
+}
+.box11,.box22,.box33,.box55,.box66{
+    background-color: rgb(93, 93, 93);;
+    height: 130px;
+    width: 180px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top:10px ;
+}
+.box44,.box77{
+    background-color: rgb(93, 93, 93);
+    height:130px ;
+    width: 385px;
+    margin-left:10px ;
+    margin-top:10px ;
+    border-radius:10px ;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box6:hover,.box7:hover,.box5:hover{
+background-color: rgb(26, 28, 28);
+}
+.box11:hover,.box22:hover,.box33:hover,.box44:hover,.box66:hover,.box55:hover,.box77:hover{
+    background-color:azure ;
+}
+.box11 img{
+    width: 180px;
+    height: 140px;
+    border-radius: 8px;
+}
+.box22 img{
+     width: 180px;
+    height: 140px;
+    border-radius: 8px;
+}
+.box33 img{
+    width: 180px;
+    height: 140px;
+    border-radius: 8px;
+}
+.box44 img{
+    width: 385px;
+    height: 130px;
+    border-radius: 8px;
+}
+.box55 img{
+    width: 180px;
+    height: 140px;
+    border-radius: 8px;
+}
+.box66 img{
+    width: 180px;
+    height: 140px;
+    border-radius: 8px;
+}
+.box77 img{
+    width: 385px;
+    height: 130px;
+    border-radius: 8px;
+}
+.box11 img:hover,.box22 img:hover,.box33 img:hover,.box44 img:hover,.box55 img:hover,.box66 img:hover,.box77 img:hover{
+  filter: grayscale(1);
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+    scal
+}

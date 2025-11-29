@@ -1,0 +1,19 @@
+.POS{
+    position: relative;
+    top: 20;
+   left: 200px;
+   
+}
+.absolute{
+overflow:scroll;
+position:relative;
+width: 400px;
+height:250px;
+border: 2px solid red;
+}
+.absolute div{
+position:absolute ;
+top: 10px;
+left:150px ;
+background-color: aqua;
+}

@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  wheat;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(246, 164, 13);
+    text-align: center;
+    align-items:center;
+    color: snow;
+    padding: 20px 80px;
+}
+nav div ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+   cursor: pointer;
+}
+nav div button{
+    padding: 5px 10px;
+    border: 10px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
+nav div button:hover{
+    background-color: rgb(73, 172, 197);
+    color: white;
+    transform:scale(1.1);
+    transition: all 0.2s ease-in;
+}
+@media(max-width:426px){
+    body{
+        background-color: aqua;
+    }
+    .head{
+        width: 600px;
+    }
+    nav{
+        width: 600px;
+    }
+    .img div img{
+        justify-content: start;
+        align-items: start;
+    }
+    .img{
+       margin-left:70px;
+    }
+    .three-menu{
+        width:500px;
+        padding: 10px 30px;
+        }
+        .three-menu div{
+            width: 450px;
+        }
+        .three-menu div img{
+            width: 280px;
+        }
+}
+
+nav div button:not(:hover){
+    background-color: rgb(73, 172, 197);
+    color: white;
+    transform:scale(1);
+    transition: all 0.2s ease-OUT;
+}
+@media(max-width: 768px) {
+    .head div img{
+        height: 250px;
+        width: 200px;
+    }
+
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(246, 164, 13);;
+    align-items: center;
+    padding: 20px 80px;
+}
+.head div{
+    width: 50%;
+}
+.head div h1 {
+    font-size: 3rem;
+    color: azure;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans R
+}
+.head div p {
+    color: azure;
+    font-family: cursive;
+    font-size: 1.2 rem;
+}
+.head div button{
+    padding-inline-start: 10pc 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+}
+.head div button:hover{
+    background-color: rgb(100, 184, 237);
+   color:white;
+   transform: scale(1.1);
+   transition: all 0.2s ease-in;
+}
+.head div button:not(:hover){
+    background-color: rgb(100, 184, 237);
+   color:white;
+   transform: scale(1);
+   transition: all 0.2s ease-out;
+}
+.restro-img{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+} 
+.img{
+    display: flex;
+   justify-content:space-evenly;
+}
+.img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+.head div img{
+    border-radius: 8px;
+}
+.head div img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+    border-radius: 5px;
+
+}
+.head div img:not(:hover){
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+    border-radius: 5px;
+}
+.img div img{
+    width:120px;
+    border-radius:10px ;
+    height: 120px;
+}
+.img div img:hover{
+    transform: scale(1.1);
+    transition: ALL 0.2S ease-in;
+
+}
+.img div img:not(:hover){
+    transform: scale(1);
+    transition: ALL 0.2S ease-out;
+
+}
+.three-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:50px;
+    padding: 50px 80px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.menu{
+    border-radius:5px;
+    text-align:center;
+    border-radius: 6px;
+    width: 80%;
+    padding:20px;
+    border: 2px solid black;
+    margin:20px;
+}
+.menu:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+}
+.menu img{
+    width:200px;
+    object-fit:cover;
+    border-radius:6px;
+}
+.menu img:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.menu img:not(:hover){
+    transform: scale(1);
+    transition: all 0.2s ease-out;
+}
+.menu h3{
+    margin:10px 20px ;
+}
+.menu h3:hover{
+    cursor: pointer;
+    color: rgb(206, 7, 7);
+}
+.menu p {
+   margin:10px 20px ;
+}
+.menu p:hover{
+cursor:pointer;
+color: red;
+}

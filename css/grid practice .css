@@ -1,0 +1,30 @@
+.container{
+    display:grid;
+    height:600px;
+    width:500px;
+    grid: repeat(5,100px)/repeat(4,100px);
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.item{
+    background-color: lightskyblue;
+}
+.item:nth-child(1){
+    background-color: lightskyblue;
+    grid-column: span 4;
+}
+.item:nth-child(5){
+    background-color: lightskyblue;
+    grid-row: span 3;
+} 
+
+.item:nth-child(6){
+    background-color: lightskyblue;
+    grid-column: span 3;
+    grid-row: span 2;
+} 
+
+.item:nth-child(7){
+    grid-column: span 4;
+}
