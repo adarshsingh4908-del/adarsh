@@ -74,7 +74,7 @@
 // }
 // for(let i =30 ; i<=40; i++){
 //     if(i%2===0){
-//         console.log(i)
+//         console.log(i);
 //     }
 // }
 // let i = 1;
@@ -82,16 +82,54 @@
 //     console.log(i);
 //     i+=2;
 // }
-// let i = 1;
 
-// while(i <=15){
-
-//      if(i%2===1){
+// let sum = 0;
+// for( let i = 1; i<101 ;  i++){
+//     if(i%2===0){
+//         sum+ sum +i;
 //         console.log(i)
-//      }
-
-//      i++;
+//     }
 // }
-for(let i = 5; i<=50; i+5){
-    console.log(i)
-   }
+// 
+//  for(let i = 1; i<=100; i++){
+//      console.log(i);
+//     if(i%7===0){
+//         break
+//     }
+//  }
+// for(let i = 1; i<=20; i++){
+//     if(i%2===0){
+//         continue;
+//     }
+//     console.log(i);
+// }
+// let count = 0
+// for(let i = 1; i<=100; i++){
+//     if(i%2===1){
+//         count++;
+//         console.log(i);
+//     }
+//     if(count=== 20){
+//         break;
+//     }
+// }
+// 
+let fnc2 = function(v1,v2){
+    console.log(v1+v2)
+}
+fnc2(2,10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
